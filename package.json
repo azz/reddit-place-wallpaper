@@ -1,5 +1,5 @@
 {
-  "name": "place-wallpaper",
+  "name": "reddit-place",
   "version": "0.1.0",
   "description": "Set reddit.com/r/place as your wallpaper",
   "main": "index.js",
