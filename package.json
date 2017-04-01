@@ -1,0 +1,25 @@
+{
+  "name": "place-wallpaper",
+  "version": "0.1.0",
+  "description": "Set reddit.com/r/place as your wallpaper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo lol"
+  },
+  "bin": {
+    "reddit-place": "./index.js"
+  },
+  "keywords": [
+    "reddit",
+    "place"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.2.27",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "wallpaper": "^2.4.0"
+  }
+}
