@@ -1,3 +1,4 @@
+#!/bin/env node
 "use strict";
 
 var wallpaper = require('wallpaper')
