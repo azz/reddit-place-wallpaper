@@ -8,7 +8,7 @@
     "test": "echo lol"
   },
   "bin": {
-    "reddit-place": "./index.js"
+    "reddit-place-wallpaper": "./index.js"
   },
   "keywords": [
     "reddit",

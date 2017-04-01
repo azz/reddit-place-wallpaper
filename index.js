@@ -55,7 +55,7 @@ function updateWallpaper() {
     })
     .then(function () {
         console.log('Updated wallpaper. Will update again in ' + interval + 'ms');
-        setTimeout(_ => wallpaper.set(fsPath), interval);
+        setTimeout(updateWallpaper, interval);
     })
     .catch(console.error);
 }
